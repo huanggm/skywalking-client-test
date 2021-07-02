@@ -19,7 +19,7 @@ import ClientMonitor from 'skywalking-client-js';
 import Vue from 'vue';
 
 ClientMonitor.register({
-    collector: 'http://10.35.83.83:11800',
+    collector: 'https://10.35.83.83:11800',
     service: 'test-ui',
     pagePath: 'index.html',
     serviceVersion: 'v1.0.0',
